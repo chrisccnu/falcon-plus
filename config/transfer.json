@@ -23,7 +23,8 @@
         "maxIdle": 32,
         "replicas": 500,
         "cluster": {
-            "judge-00" : "%%JUDGE_RPC%%"
+            "judge-01" : "pm2.yunzhijia.com:6080",
+            "judge-02" : "pm1.yunzhijia.com:6080"
         }
     },
     "graph": {
@@ -35,7 +36,8 @@
         "maxIdle": 32,
         "replicas": 500,
         "cluster": {
-            "graph-00" : "%%GRAPH_RPC%%"
+            "graph-01": "pm2.yunzhijia.com:6070",
+            "graph-02": "pm1.yunzhijia.com:6070"
         }
     },
     "tsdb": {

@@ -22,7 +22,8 @@
         "maxConns": 32,
         "maxIdle": 32,
         "cluster": {
-            "t1":"%%TRANSFER_RPC%%"
+            "t1":"pm2.yunzhijia.com:8433",
+            "t2":"pm1.yunzhijia.com:8433"
         }
     }
 }

@@ -13,9 +13,9 @@ confs=(
     [%%NODATA_HTTP%%]=0.0.0.0:6090
     [%%TRANSFER_HTTP%%]=0.0.0.0:6060
     [%%TRANSFER_RPC%%]=0.0.0.0:8433
-    [%%REDIS%%]=127.0.0.1:6379
-    [%%MYSQL%%]="root:@tcp(127.0.0.1:3306)"
-    [%%PLUS_API_DEFAULT_TOKEN%%]="default-token-used-in-server-side"
+    [%%REDIS%%]=pm2.yunzhijia.com:7480
+    [%%MYSQL%%]="opensys:msbu@)!%0225@tcp(pm2.yunzhijia.com:3306)"
+    [%%PLUS_API_DEFAULT_TOKEN%%]="ea4686028f5c3cf3ef70a44ae91ec447"
     [%%PLUS_API_HTTP%%]="0.0.0.0:8080"
 )
 
