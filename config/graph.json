@@ -21,8 +21,8 @@
             "concurrency": 2,
             "replicas": 500,
             "cluster": {
-                    "graph-00" : "pm2.yunzhijia.com:6070",
-                    "graph-00" : "pm1.yunzhijia.com:6070"
+                    "graph-01" : "pm2.yunzhijia.com:6070",
+                    "graph-02" : "pm1.yunzhijia.com:6070"
             }
     }
 }
