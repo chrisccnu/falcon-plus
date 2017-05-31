@@ -11,7 +11,7 @@
         "listen": "%%JUDGE_RPC%%"
     },
     "hbs": {
-        "servers": ["%%HBS_RPC%%"],
+        "servers": ["pm2.yunzhijia.com:8433","pm1.yunzhijia.com:8433"],
         "timeout": 300,
         "interval": 60
     },
