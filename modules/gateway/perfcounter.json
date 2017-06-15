@@ -2,7 +2,7 @@
     "tags": "service=gateway",
     "bases": ["debug","runtime"],
     "push": {
-        "enabled": true
+        "enabled": false
     },
     "http": {
         "enabled": true
